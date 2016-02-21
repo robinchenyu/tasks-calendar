@@ -1,14 +1,16 @@
 {
   "name": "tasks-calendar",
   "main": "./lib/tasks-calendar",
-  "version": "0.0.0",
+  "version": "0.8.0",
   "description": "A short description of your package",
   "keywords": [
+    "tasks",
+    "calendar"
   ],
   "activationCommands": {
     "atom-workspace": "tasks-calendar:toggle"
   },
-  "repository": "https://github.com/atom/tasks-calendar",
+  "repository": "https://github.com/robinchenyu/tasks-calendar",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
