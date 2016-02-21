@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle tasks-calendar'
+      'command': 'tasks-calendar:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'tasks-calendar'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'tasks-calendar:toggle'
+        }
+      ]
+    ]
+  }
+]
